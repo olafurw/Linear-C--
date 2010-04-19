@@ -1,4 +1,4 @@
-#include "vector2d.h"
+#include "Vector2d.h"
 
 using namespace std;
 
@@ -16,4 +16,3 @@ class Vector3D: protected Vector2D
 		friend Vector3D VectorSum(const Vector3D& v, const Vector3D& w);
 		friend double VectorAngle(const Vector3D& v, const Vector3D& w);
 };
-

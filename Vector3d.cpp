@@ -1,4 +1,4 @@
-#include "vector3d.h"
+#include "Vector3d.h"
 
 Vector3D::Vector3D(double arg_x, double arg_y, double arg_z): Vector2D(arg_x, arg_y), z(arg_z)
 {

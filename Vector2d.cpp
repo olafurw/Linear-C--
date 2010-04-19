@@ -1,4 +1,4 @@
-#include "vector2d.h"
+#include "Vector2d.h"
 
 Vector2D::Vector2D(double arg_x, double arg_y): x(arg_x), y(arg_y)
 {
@@ -44,4 +44,3 @@ double VectorAngle(const Vector2D& v, const Vector2D& w)
 {
 	return v.product(w) / (v.length() * w.length());
 }
-
